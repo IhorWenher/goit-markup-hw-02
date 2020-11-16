@@ -182,6 +182,11 @@ a {
   text-align: left;
 }
 
+.project-title:hover,
+.project-title:focus {
+  color: var(--accent-color);
+}
+
 .project-description {
   color: var(--primary-text-color);
   font-weight: 400;
